@@ -39,3 +39,14 @@ body {
  color: white;
  
 }
+
+/*Hacker section*/
+
+.hacker-img {
+  width: 100%;        /* fills the screen width */
+  height: auto;       /* keeps the correct proportions */
+  display: block;
+}
+
+
+
