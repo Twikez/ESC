@@ -1,0 +1,28 @@
+
+/*Header*/
+.header {
+  background-color: #011627;
+  padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}
+
+.logo img{
+    width: 80px;
+}
+
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.logo-text span {
+ color: white;
+ 
+}
