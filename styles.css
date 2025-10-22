@@ -12,7 +12,7 @@ body {
 }
 
 
-/*Header*/
+/*HEADER*/
 .header {
   background-color: #011627;
   padding: 10px;
@@ -40,7 +40,7 @@ body {
  
 }
 
-/*Hacker section*/
+/*HACKER*/
 
 .hacker-img {
   width: 100%;        /* fills the screen width */
@@ -105,7 +105,7 @@ body {
   font-size: 0.9rem;
 }
 
-/*POPULAR SECTION */
+/*POPULAR*/
 
 .popular {
     text-align: center ;
@@ -150,4 +150,17 @@ body {
   text-decoration-line: none;
   margin-top: 10px;
 }
+
+
+/*CHALLENGE BUTTONS*/
+.challenge-buttons {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+
+
 
