@@ -119,8 +119,8 @@ body {
 
 .popular-cards {
     display: flex;
-    flex-direction: column;
     gap: 20px;
+    overflow-x: auto;
 }
 
 .card{
@@ -137,3 +137,12 @@ body {
     margin-bottom: 10px;
 }
 
+.card .btn-primary {
+  background-color: #E3170A;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: 600;
+  
+}
