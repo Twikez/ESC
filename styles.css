@@ -76,3 +76,31 @@ body {
   
 
 }
+/*Testimonial*/
+
+.testimonial{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+}
+
+.testimonial img{
+    width: 60px;
+    height: 60px;
+    
+}
+
+.testimonial-text{
+    text-align: left;
+    font-size: 1.13rem;
+    
+}
+
+.testimonial .quote{
+    margin-bottom: 5px;
+}
+
+.testimonial .author {
+  color: #555;                  
+  font-size: 0.9rem;
+}
