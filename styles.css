@@ -48,5 +48,31 @@ body {
   display: block;
 }
 
+.hacker-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  gap: 15px;
+}
 
+.btn-secondary {
+  background-color: #8ACFE5;
+  color: #011627;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  
+}
+.btn-primary{
+  background: none;
+  color: #36769D;          /* blue text */
+  border: none;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 0.6rem;
 
+  
+
+}
