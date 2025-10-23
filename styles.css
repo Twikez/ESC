@@ -207,6 +207,15 @@ body {
 
 }
 
+.btn-promo {
+  background-color: #E3170A;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
 
+}
 
 
