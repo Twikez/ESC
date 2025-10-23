@@ -8,7 +8,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: white;
-  
 }
 
 
@@ -63,8 +62,8 @@ body {
   padding: 10px 20px;
   border-radius: 4px;
   font-weight: 600;
-  
 }
+
 .btn-primary{
   background: none;
   color: #36769D;          /* blue text */
@@ -72,10 +71,8 @@ body {
   text-decoration: underline;
   font-weight: 600;
   font-size: 0.6rem;
-
-  
-
 }
+
 /*Testimonial*/
 
 .testimonial{
@@ -87,13 +84,11 @@ body {
 .testimonial img{
     width: 60px;
     height: 60px;
-    
 }
 
 .testimonial-text{
     text-align: left;
     font-size: 1.13rem;
-    
 }
 
 .testimonial .quote{
@@ -130,8 +125,6 @@ body {
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     text-align: left;
-    
-
 }
 
 .card img{
@@ -163,7 +156,7 @@ body {
 
 /*DARK SECTION */
 .dark-section {
-  background-color: #011627; 
+  background-color: #011827; 
   color: white;               
   text-align: center;
   padding: 40px 20px;
@@ -185,7 +178,6 @@ body {
   padding: 10px 20px;
   border-radius: 4px;
   font-weight: 600;
- 
 }
 
 /* PROMO SECTIONS  */
@@ -201,16 +193,15 @@ body {
   padding: 0;
 }
 
+
 .promo img {
   width: 100%;
-  
 }
 
 .promo-text h3 {
   margin-bottom: 10px;
   padding: 5px;
   font-size: 2em;
-
 }
 
 .btn-promo {
@@ -221,7 +212,12 @@ body {
   border-radius: 4px;
   font-weight: 600;
   text-decoration: none;
+}
 
+/*FOOTER */
+
+.footer{
+background-color: #011827;
 }
 
 
