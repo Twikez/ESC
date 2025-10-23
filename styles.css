@@ -161,6 +161,20 @@ body {
   margin-top: 15px;
 }
 
+/*DARK SECTION */
+.dark-section {
+  background-color: #011627; 
+  color: white;               
+  text-align: center;
+  padding: 40px 20px;         
+}
+
+.dark-section p {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
 
 
 
