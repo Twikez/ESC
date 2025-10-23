@@ -176,5 +176,15 @@ body {
 }
 
 
+.btn-outline {
+  background: none;
+  border: 2px solid #8ACFE5;
+  color: #8ACFE5;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-weight: 600;
+ 
+}
+
 
 
