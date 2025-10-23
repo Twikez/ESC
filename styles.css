@@ -216,24 +216,39 @@ body {
 
 /*FOOTER */
 
-.footer{
-display: flex;
-background-color: #011827;
-color: white;
-
+.footer {
+  display: flex;
+  background-color: #011827;
+  color: white;
+  padding: 50px 30px;
+  
+  flex-direction: column; 
+  gap: 25px;
 }
 
+.footer h4 {
+  margin-bottom: 5px;
+}
 
+.footer p {
+  font-size: 1.1rem;
+  line-height: 1.4;
+}
+
+.footer ul {
+  list-style: none; 
+  padding: 0;
+}
+
+.footer li {
+  margin: 5px 0;
+}
 
 .footer a {
   color: white;
   text-decoration: none;
 }
 
-.footer ul {
-  list-style: none; 
-  
-}
 
 
 
