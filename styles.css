@@ -156,27 +156,30 @@ body {
 
 /*DARK  */
 .dark-section {
-  background-color: #011827; 
-  color: white;               
-  text-align: center;
-  padding: 40px 20px;
-  margin: bottom 0;   
-  padding: 0;     
+ background-color: #011827;
+  color: white;
+  display: flex;                
+  flex-direction: column;       
+  align-items: center;          
+  justify-content: center;      
+  min-height: 400px;            
+  padding: 20px;
+  margin: 0;
 }
 
 .dark-section p {
   margin-bottom: 15px;
-  font-size: 1.1rem;
-  line-height: 1.5;
+  font-size: 1.6rem;
 }
 
 .btn-outline {
   background: none;
   border: 2px solid #8ACFE5;
   color: #8ACFE5;
-  padding: 10px 20px;
+  padding: 10px 50px;
   border-radius: 4px;
   font-weight: 600;
+  margin-top: 20px;
 }
 
 /* PROMO  */
@@ -184,10 +187,10 @@ body {
 .promo {
   display: flex;
   text-align: center;
-  padding: 20px;
   flex-direction: column; 
   gap: 15px;
   margin-top: 0;
+  margin-bottom: 0;
   padding-top: 0;
   padding: 0;
 }
@@ -195,6 +198,7 @@ body {
 
 .promo img {
   width: 100%;
+  
 }
 
 .promo-text h3 {
