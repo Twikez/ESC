@@ -170,11 +170,6 @@ body {
   line-height: 1.5;
 }
 
-<<<<<<< HEAD
-
-=======
-/* Outline-style button */
->>>>>>> ce1cac22dbc86cbc3210741b4b851589fd95d1a5
 .btn-outline {
   background: none;
   border: 2px solid #8ACFE5;
@@ -182,7 +177,6 @@ body {
   padding: 10px 20px;
   border-radius: 4px;
   font-weight: 600;
-<<<<<<< HEAD
 }
 
 /* PROMO  */
@@ -249,6 +243,11 @@ body {
   margin: 5px 0;
 }
 
+.footer-play {
+  margin-top: 15px; 
+  padding-top: 10px;
+
+}
 .footer a {
   color: white;
   text-decoration: none;
@@ -258,8 +257,4 @@ body {
 
 
 
-=======
- 
-}
->>>>>>> ce1cac22dbc86cbc3210741b4b851589fd95d1a5
 
