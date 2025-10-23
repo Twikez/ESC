@@ -100,6 +100,17 @@ body {
   font-size: 0.9rem;
 }
 
+.star {
+  color: #E3170A; 
+  -webkit-text-stroke: 1px #E3170A
+}
+
+.star.empty {
+  color: transparent;
+  -webkit-text-stroke: 1px #E3170A; 
+   
+}
+
 /*POPULAR*/
 
 .popular {
@@ -116,7 +127,6 @@ body {
 
 .popular-cards {
     display: flex;
-    gap: 20px;
     overflow-x: auto;
 }
 
