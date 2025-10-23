@@ -154,7 +154,7 @@ body {
   margin-top: 15px;
 }
 
-/*DARK SECTION */
+/*DARK  */
 .dark-section {
   background-color: #011827; 
   color: white;               
@@ -180,7 +180,7 @@ body {
   font-weight: 600;
 }
 
-/* PROMO SECTIONS  */
+/* PROMO  */
 
 .promo {
   display: flex;
@@ -218,6 +218,16 @@ body {
 
 .footer{
 background-color: #011827;
+color: white;
 }
+
+
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+
 
 
