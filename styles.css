@@ -42,8 +42,8 @@ body {
 /*HACKER*/
 
 .hacker-img {
-  width: 100%;        /* fills the screen width */
-  height: auto;       /* keeps the correct proportions */
+  width: 100%;        
+  height: auto;       
   display: block;
 }
 
@@ -66,7 +66,7 @@ body {
 
 .btn-primary{
   background: none;
-  color: #36769D;          /* blue text */
+  color: #36769D;        
   border: none;
   text-decoration: underline;
   font-weight: 600;
@@ -150,8 +150,17 @@ body {
   display: flex;
   flex-direction: column;   
   align-items: center;
-  gap: 15px;
-  margin-top: 15px;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.btn-challenge{
+  background: none;
+  color: #36769D;        
+  border: none;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 0.6rem;
 }
 
 /*DARK  */
