@@ -217,8 +217,10 @@ body {
 /*FOOTER */
 
 .footer{
+display: flex;
 background-color: #011827;
 color: white;
+
 }
 
 
@@ -227,6 +229,12 @@ color: white;
   color: white;
   text-decoration: none;
 }
+
+.footer ul {
+  list-style: none; 
+  
+}
+
 
 
 
