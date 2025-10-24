@@ -372,9 +372,69 @@ body {
     color: #8ACFE5;
   }
   
+/*HACKER*/
+.hacker {
+    position: relative;
+  }
+
+  .hacker-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .hacker-buttons {
+    position: absolute;
+    bottom: -20px;             /* distance from bottom of the image */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .btn-secondary {
+    background-color: #8ACFE5;
+    color: #011627;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .btn-primary {
+    background-color: #E3170A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 25px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  /*TESTIMONIAL*/
+  .testimonial {
+    flex-direction: row;        /* side-by-side */
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;                  /* spacing between two testimonials */
+    padding: 60px 150px;
+  }
+
+  .testimonial-item {
+    max-width: 400px;
+  }
+
+  .testimonial-text {
+    font-size: 1.1rem;
+  }
+
+
 }
-
-
 
 
   
