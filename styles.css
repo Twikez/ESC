@@ -59,7 +59,7 @@ body {
   gap: 15px;
 }
 
-.btn-secondary {
+.btn-primary { 
   background-color: #8ACFE5;
   color: #011627;
   border: none;
@@ -68,7 +68,7 @@ body {
   font-weight: 600;
 }
 
-.btn-primary{
+.btn-secondary{ 
   background: none;
   color: #36769D;        
   border: none;
@@ -163,7 +163,7 @@ body {
   font-size: 1rem;
 }
 
-.card .btn-primary {
+.card .btn-secondary { 
   background-color: #E3170A;
   color: white;
   border: none;
@@ -185,7 +185,7 @@ body {
 }
 
 
-.btn-secondary {
+.btn-primary {
   background-color: #8ACFE5;
   color: #011627;
   border: none;
@@ -393,7 +393,7 @@ body {
     gap: 20px;
   }
 
-  .btn-secondary {
+  .btn-primary {
     background-color: #8ACFE5;
     color: #011627;
     padding: 12px 25px;
@@ -402,7 +402,7 @@ body {
     cursor: pointer;
   }
 
-  .btn-primary {
+  .btn-secondary { 
     background-color: #E3170A;
     color: white;
     border: none;
