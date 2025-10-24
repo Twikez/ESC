@@ -385,7 +385,7 @@ body {
 
   .hacker-buttons {
     position: absolute;
-    bottom: -20px;             /* distance from bottom of the image */
+    bottom: -20px;             
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -418,10 +418,10 @@ body {
   
   /*TESTIMONIAL*/
   .testimonial {
-    flex-direction: row;        /* side-by-side */
+    flex-direction: row;       
     justify-content: center;
     align-items: flex-start;
-    gap: 60px;                  /* spacing between two testimonials */
+    gap: 60px;                  
     padding: 60px 150px;
   }
 
@@ -434,7 +434,61 @@ body {
   }
 
 
+
+
+/*POPULAR SECTION (desktop)*/
+.popular {
+  padding: 80px 120px;
 }
+
+.popular h2 {
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+}
+
+.popular-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  overflow: visible;
+  padding: 0;
+}
+
+.card {
+  flex: none;
+  width: 100%;
+  padding: 20px;
+}
+
+
+.card h3 {
+  font-size: 1.1rem;
+}
+
+.btn-book {
+  align-self: flex-start; 
+  padding: 10px 25px;
+}
+
+/* ===== DARK SECTION (desktop) ===== */
+.dark-section {
+  padding: 140px 200px;
+  min-height: 400px;
+}
+
+.dark-section p {
+  font-size: 1.4rem;
+  max-width: 800px;
+  margin-bottom: 25px;
+}
+
+.btn-outline {
+  font-size: 1rem;
+  padding: 14px 50px;
+}
+
+}
+
 
 
   
