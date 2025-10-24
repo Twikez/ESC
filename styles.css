@@ -39,6 +39,10 @@ body {
  
 }
 
+.nav {
+  display: none; 
+}
+
 /*HACKER*/
 
 .hacker-img {
@@ -102,7 +106,7 @@ body {
 
 .star {
   color: #E3170A; 
-  -webkit-text-stroke: 1px #E3170A
+  -webkit-text-stroke: 1px #E3170A;
 }
 
 .star.empty {
@@ -176,7 +180,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
+  gap: 15px;
   margin: 40px 0; 
 }
 
@@ -276,7 +280,7 @@ body {
 
 .footer {
   display: flex;
-  background-color: #011827;
+  background-color: #011627;
   color: white;
   padding: 50px 30px;
   
@@ -313,7 +317,68 @@ body {
 }
 
 
+/*Desktop layout*/
+@media screen and (min-width: 1024px) {
+ .header {
+    background-color: #011627;
+    padding: 0;                    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* LOGO area */
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 80px 10px 80px;  
+  }
+
+  .logo img {
+    width: 90px;
+  }
+
+  .logo-text {
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+  }
+
+  /* NAVIGATION */
+  .nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 15px;
+  }
+
+  .nav ul {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+  }
+
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.2s ease;
+  }
+
+  .nav a:hover {
+    color: #8ACFE5;
+  }
+  
+}
 
 
 
 
+  
+
+  
+
+  
