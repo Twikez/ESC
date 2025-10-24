@@ -547,11 +547,14 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: center;   /* vertikal centrering */
+  align-items: center;       /* horisontell centrering */
+  text-align: center;        /* centrera texten */
   gap: 20px;
   padding: 0 80px;
+  height: 100%;
 }
+
 
 .promo-text h3 {
   font-size: 2rem;
